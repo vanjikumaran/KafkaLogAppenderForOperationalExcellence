@@ -23,3 +23,8 @@ hs_err_pid*
 
 #remove apple dir
 .DS_Store
+*.iml
+*.ipr
+*.iws
+*.properties
+target/
