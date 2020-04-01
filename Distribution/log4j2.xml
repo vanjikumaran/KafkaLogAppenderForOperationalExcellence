@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+    <Appenders>
+            <Kafka name="Kafka" topic="WSO2APIM">
+                <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+                <Property name="bootstrap.servers">localhost:9092</Property>
+            </Kafka>
+            <Async name="Async" bufferSize="1054" blocking="false">
+               <AppenderRef ref="Kafka"/>
+            </Async>
+    </Appenders>
+
+    <Loggers>
+            <Root level="DEBUG">
+	        <AppenderRef ref="Kafka" />
+	    </Root>
+            <Logger name="org.apache.kafka" level="INFO" />
+    </Loggers>
+</Configuration>

@@ -1,0 +1,3 @@
+<handlers>
+    <handler name = "SampleLog4J2SynapseHandler" class="org.vanji.demo.SampleLog4J2SynapseHandler"/>
+</handlers>
