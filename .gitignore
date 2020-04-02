@@ -28,3 +28,4 @@ hs_err_pid*
 *.iws
 *.properties
 target/
+SampleLog4J2SynapseHandler/.idea/workspace.xml
