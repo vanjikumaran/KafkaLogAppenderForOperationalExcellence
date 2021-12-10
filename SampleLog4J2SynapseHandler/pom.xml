@@ -27,7 +27,7 @@
   </dependencies>
   <properties>
     <org.apache.synapse>2.1.7-wso2v3</org.apache.synapse>
-    <org.apache.logging.log4j.version>2.11.1</org.apache.logging.log4j.version>
+    <org.apache.logging.log4j.version>2.15.0</org.apache.logging.log4j.version>
   </properties>
   <repositories>
     <repository>
